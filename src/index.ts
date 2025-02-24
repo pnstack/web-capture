@@ -1,5 +1,5 @@
 import { chromium } from '@playwright/test';
-import express from 'express';
+import express, { NextFunction, Request, Response } from 'express';
 
 import 'dotenv/config';
 
@@ -33,25 +33,28 @@ const port = process.env.PORT || 5510;
   });
 
   // Main endpoint to capture and serve screenshots
-  app.get('/', async (req, res, next) => {
+  app.get('/', async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const { url, format } = req.query;
+      const { url, format } = req.query as any;
 
       if (!url) {
-        return res.status(400).send({ error: 'Query parameter "url" is required.' });
+        res.status(400).send({ error: 'Query parameter "url" is required.' });
+        return;
       }
 
       // Validate URL format
       try {
         new URL(url);
       } catch (err) {
-        return res.status(400).send({ error: 'Provided url is invalid.' });
+        res.status(400).send({ error: 'Provided url is invalid.' });
+        return;
       }
 
       const buffer = await capturePage(browser, url);
 
       if (!buffer) {
-        return res.status(500).send({ error: 'Failed to capture the screenshot.' });
+        res.status(500).send({ error: 'Failed to capture the screenshot.' });
+        return;
       }
 
       const base64Image = 'data:image/png;base64,' + buffer.toString('base64');
@@ -72,6 +75,7 @@ const port = process.env.PORT || 5510;
     } catch (error) {
       next(error);
     }
+    return;
   });
 
   app.use((err, req, res, next) => {

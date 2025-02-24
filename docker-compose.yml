@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mysql:8.4.0
+    restart: always
+    environment:
+      - MYSQL_DATABASE=laravel
+      - MYSQL_ROOT_PASSWORD=U8V2zh2eFKwK
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+      - 8406:3306
+
+volumes:
+  db-data:

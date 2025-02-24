@@ -1,0 +1,1412 @@
+[
+  {
+    "id": 1,
+    "migration": "0001_01_01_000000_create_users_table",
+    "batch": 1
+  },
+  {
+    "id": 2,
+    "migration": "0001_01_01_000001_create_cache_table",
+    "batch": 1
+  },
+  {
+    "id": 3,
+    "migration": "0001_01_01_000002_create_jobs_table",
+    "batch": 1
+  },
+  {
+    "id": 4,
+    "migration": "2022_03_23_165457_after_users_table",
+    "batch": 1
+  },
+  {
+    "id": 5,
+    "migration": "2022_03_23_165505_create_roles_table",
+    "batch": 1
+  },
+  {
+    "id": 6,
+    "migration": "2022_03_23_165527_create_permissions_table",
+    "batch": 1
+  },
+  {
+    "id": 7,
+    "migration": "2024_06_06_072751_create_personal_access_tokens_table",
+    "batch": 1
+  },
+  {
+    "id": 8,
+    "migration": "2024_06_07_031027_create_tbl_access_log_table",
+    "batch": 1
+  },
+  {
+    "id": 9,
+    "migration": "2024_06_07_031027_create_tbl_admin_menu_table",
+    "batch": 1
+  },
+  {
+    "id": 10,
+    "migration": "2024_06_07_031027_create_tbl_advance_purchase_table",
+    "batch": 1
+  },
+  {
+    "id": 11,
+    "migration": "2024_06_07_031027_create_tbl_arrange_delivery_table",
+    "batch": 1
+  },
+  {
+    "id": 12,
+    "migration": "2024_06_07_031027_create_tbl_ask_quotation_table",
+    "batch": 1
+  },
+  {
+    "id": 13,
+    "migration": "2024_06_07_031027_create_tbl_auction_details_table",
+    "batch": 1
+  },
+  {
+    "id": 14,
+    "migration": "2024_06_07_031027_create_tbl_auction_prices_table",
+    "batch": 1
+  },
+  {
+    "id": 15,
+    "migration": "2024_06_07_031027_create_tbl_auctions_table",
+    "batch": 1
+  },
+  {
+    "id": 16,
+    "migration": "2024_06_07_031027_create_tbl_beneficiary_table",
+    "batch": 1
+  },
+  {
+    "id": 17,
+    "migration": "2024_06_07_031027_create_tbl_book_register_table",
+    "batch": 1
+  },
+  {
+    "id": 18,
+    "migration": "2024_06_07_031027_create_tbl_book_table",
+    "batch": 1
+  },
+  {
+    "id": 19,
+    "migration": "2024_06_07_031027_create_tbl_business_legal_document_table",
+    "batch": 1
+  },
+  {
+    "id": 20,
+    "migration": "2024_06_07_031027_create_tbl_business_notice_product_table",
+    "batch": 1
+  },
+  {
+    "id": 21,
+    "migration": "2024_06_07_031027_create_tbl_business_notice_table",
+    "batch": 1
+  },
+  {
+    "id": 22,
+    "migration": "2024_06_07_031027_create_tbl_category_table",
+    "batch": 1
+  },
+  {
+    "id": 23,
+    "migration": "2024_06_07_031027_create_tbl_certificate_detail_table",
+    "batch": 1
+  },
+  {
+    "id": 24,
+    "migration": "2024_06_07_031027_create_tbl_certificate_product_table",
+    "batch": 1
+  },
+  {
+    "id": 25,
+    "migration": "2024_06_07_031027_create_tbl_certificate_table",
+    "batch": 1
+  },
+  {
+    "id": 26,
+    "migration": "2024_06_07_031027_create_tbl_change_price_po_info_table",
+    "batch": 1
+  },
+  {
+    "id": 27,
+    "migration": "2024_06_07_031027_create_tbl_change_price_po_table",
+    "batch": 1
+  },
+  {
+    "id": 28,
+    "migration": "2024_06_07_031027_create_tbl_change_price_purchase_table",
+    "batch": 1
+  },
+  {
+    "id": 29,
+    "migration": "2024_06_07_031027_create_tbl_column_table",
+    "batch": 1
+  },
+  {
+    "id": 30,
+    "migration": "2024_06_07_031027_create_tbl_commission_table",
+    "batch": 1
+  },
+  {
+    "id": 31,
+    "migration": "2024_06_07_031027_create_tbl_compensation_table",
+    "batch": 1
+  },
+  {
+    "id": 32,
+    "migration": "2024_06_07_031027_create_tbl_competitive_price_messages_table",
+    "batch": 1
+  },
+  {
+    "id": 33,
+    "migration": "2024_06_07_031027_create_tbl_competitive_price_table",
+    "batch": 1
+  },
+  {
+    "id": 34,
+    "migration": "2024_06_07_031027_create_tbl_competitors_table",
+    "batch": 1
+  },
+  {
+    "id": 35,
+    "migration": "2024_06_07_031027_create_tbl_composite_index_table",
+    "batch": 1
+  },
+  {
+    "id": 36,
+    "migration": "2024_06_07_031027_create_tbl_composite_kpi_table",
+    "batch": 1
+  },
+  {
+    "id": 37,
+    "migration": "2024_06_07_031027_create_tbl_config_table",
+    "batch": 1
+  },
+  {
+    "id": 38,
+    "migration": "2024_06_07_031027_create_tbl_container_table",
+    "batch": 1
+  },
+  {
+    "id": 39,
+    "migration": "2024_06_07_031027_create_tbl_content_table",
+    "batch": 1
+  },
+  {
+    "id": 40,
+    "migration": "2024_06_07_031027_create_tbl_contest_detail_table",
+    "batch": 1
+  },
+  {
+    "id": 41,
+    "migration": "2024_06_07_031027_create_tbl_contest_table",
+    "batch": 1
+  },
+  {
+    "id": 42,
+    "migration": "2024_06_07_031027_create_tbl_contract_table",
+    "batch": 1
+  },
+  {
+    "id": 43,
+    "migration": "2024_06_07_031027_create_tbl_control_notifications_table",
+    "batch": 1
+  },
+  {
+    "id": 44,
+    "migration": "2024_06_07_031027_create_tbl_corporation_table",
+    "batch": 1
+  },
+  {
+    "id": 45,
+    "migration": "2024_06_07_031027_create_tbl_criteria_bonus_fault_index_table",
+    "batch": 1
+  },
+  {
+    "id": 46,
+    "migration": "2024_06_07_031027_create_tbl_criteria_bonus_fault_table",
+    "batch": 1
+  },
+  {
+    "id": 47,
+    "migration": "2024_06_07_031027_create_tbl_customer_address_table",
+    "batch": 1
+  },
+  {
+    "id": 48,
+    "migration": "2024_06_07_031027_create_tbl_customer_debt_control_table",
+    "batch": 1
+  },
+  {
+    "id": 49,
+    "migration": "2024_06_07_031027_create_tbl_customer_debt_table",
+    "batch": 1
+  },
+  {
+    "id": 50,
+    "migration": "2024_06_07_031027_create_tbl_customer_product_table",
+    "batch": 1
+  },
+  {
+    "id": 51,
+    "migration": "2024_06_07_031027_create_tbl_customer_service_score_table",
+    "batch": 1
+  },
+  {
+    "id": 52,
+    "migration": "2024_06_07_031027_create_tbl_customer_table",
+    "batch": 1
+  },
+  {
+    "id": 53,
+    "migration": "2024_06_07_031027_create_tbl_customer_vat_table",
+    "batch": 1
+  },
+  {
+    "id": 54,
+    "migration": "2024_06_07_031027_create_tbl_customs_info_table",
+    "batch": 1
+  },
+  {
+    "id": 55,
+    "migration": "2024_06_07_031027_create_tbl_cycle_counting_statistic_table",
+    "batch": 1
+  },
+  {
+    "id": 56,
+    "migration": "2024_06_07_031027_create_tbl_cycle_counting_table",
+    "batch": 1
+  },
+  {
+    "id": 57,
+    "migration": "2024_06_07_031027_create_tbl_db_group_table",
+    "batch": 1
+  },
+  {
+    "id": 58,
+    "migration": "2024_06_07_031027_create_tbl_debt_issue_payment_table",
+    "batch": 1
+  },
+  {
+    "id": 59,
+    "migration": "2024_06_07_031027_create_tbl_debt_issue_table",
+    "batch": 1
+  },
+  {
+    "id": 60,
+    "migration": "2024_06_07_031027_create_tbl_define_table",
+    "batch": 1
+  },
+  {
+    "id": 61,
+    "migration": "2024_06_07_031027_create_tbl_delivery_note_table",
+    "batch": 1
+  },
+  {
+    "id": 62,
+    "migration": "2024_06_07_031027_create_tbl_delivery_truck_table",
+    "batch": 1
+  },
+  {
+    "id": 63,
+    "migration": "2024_06_07_031027_create_tbl_device_table",
+    "batch": 1
+  },
+  {
+    "id": 64,
+    "migration": "2024_06_07_031027_create_tbl_discount_achievement_table",
+    "batch": 1
+  },
+  {
+    "id": 65,
+    "migration": "2024_06_07_031027_create_tbl_discount_products_table",
+    "batch": 1
+  },
+  {
+    "id": 66,
+    "migration": "2024_06_07_031027_create_tbl_discount_shared_table",
+    "batch": 1
+  },
+  {
+    "id": 67,
+    "migration": "2024_06_07_031027_create_tbl_do_cancellation_table",
+    "batch": 1
+  },
+  {
+    "id": 68,
+    "migration": "2024_06_07_031027_create_tbl_do_detail_table",
+    "batch": 1
+  },
+  {
+    "id": 69,
+    "migration": "2024_06_07_031027_create_tbl_do_list_table",
+    "batch": 1
+  },
+  {
+    "id": 70,
+    "migration": "2024_06_07_031027_create_tbl_do_mutation_table",
+    "batch": 1
+  },
+  {
+    "id": 71,
+    "migration": "2024_06_07_031027_create_tbl_do_product_ng_table",
+    "batch": 1
+  },
+  {
+    "id": 72,
+    "migration": "2024_06_07_031027_create_tbl_do_product_table",
+    "batch": 1
+  },
+  {
+    "id": 73,
+    "migration": "2024_06_07_031027_create_tbl_do_report_table",
+    "batch": 1
+  },
+  {
+    "id": 74,
+    "migration": "2024_06_07_031027_create_tbl_do_table",
+    "batch": 1
+  },
+  {
+    "id": 75,
+    "migration": "2024_06_07_031027_create_tbl_do_wrong_time_table",
+    "batch": 1
+  },
+  {
+    "id": 76,
+    "migration": "2024_06_07_031027_create_tbl_document_feedback_table",
+    "batch": 1
+  },
+  {
+    "id": 77,
+    "migration": "2024_06_07_031027_create_tbl_document_grant_table",
+    "batch": 1
+  },
+  {
+    "id": 78,
+    "migration": "2024_06_07_031027_create_tbl_document_table",
+    "batch": 1
+  },
+  {
+    "id": 79,
+    "migration": "2024_06_07_031027_create_tbl_driver_score_table",
+    "batch": 1
+  },
+  {
+    "id": 80,
+    "migration": "2024_06_07_031027_create_tbl_employee_attendance_table",
+    "batch": 1
+  },
+  {
+    "id": 81,
+    "migration": "2024_06_07_031027_create_tbl_employee_error_table",
+    "batch": 1
+  },
+  {
+    "id": 82,
+    "migration": "2024_06_07_031027_create_tbl_employee_score_table",
+    "batch": 1
+  },
+  {
+    "id": 83,
+    "migration": "2024_06_07_031027_create_tbl_end_product_table",
+    "batch": 1
+  },
+  {
+    "id": 84,
+    "migration": "2024_06_07_031027_create_tbl_event_table",
+    "batch": 1
+  },
+  {
+    "id": 85,
+    "migration": "2024_06_07_031027_create_tbl_exchange_rate_table",
+    "batch": 1
+  },
+  {
+    "id": 86,
+    "migration": "2024_06_07_031027_create_tbl_feature_proposal_table",
+    "batch": 1
+  },
+  {
+    "id": 87,
+    "migration": "2024_06_07_031027_create_tbl_feedback_reply_table",
+    "batch": 1
+  },
+  {
+    "id": 88,
+    "migration": "2024_06_07_031027_create_tbl_feedback_table",
+    "batch": 1
+  },
+  {
+    "id": 89,
+    "migration": "2024_06_07_031027_create_tbl_forwarder_table",
+    "batch": 1
+  },
+  {
+    "id": 90,
+    "migration": "2024_06_07_031027_create_tbl_garment_products_table",
+    "batch": 1
+  },
+  {
+    "id": 91,
+    "migration": "2024_06_07_031027_create_tbl_generate_code_table",
+    "batch": 1
+  },
+  {
+    "id": 92,
+    "migration": "2024_06_07_031027_create_tbl_grant_group_table",
+    "batch": 1
+  },
+  {
+    "id": 93,
+    "migration": "2024_06_07_031027_create_tbl_grant_table",
+    "batch": 1
+  },
+  {
+    "id": 94,
+    "migration": "2024_06_07_031027_create_tbl_incident_table",
+    "batch": 1
+  },
+  {
+    "id": 95,
+    "migration": "2024_06_07_031027_create_tbl_innovation_pre_table",
+    "batch": 1
+  },
+  {
+    "id": 96,
+    "migration": "2024_06_07_031027_create_tbl_innovation_table",
+    "batch": 1
+  },
+  {
+    "id": 97,
+    "migration": "2024_06_07_031027_create_tbl_insurance_compare_table",
+    "batch": 1
+  },
+  {
+    "id": 98,
+    "migration": "2024_06_07_031027_create_tbl_insurance_general_table",
+    "batch": 1
+  },
+  {
+    "id": 99,
+    "migration": "2024_06_07_031027_create_tbl_insurance_manager_table",
+    "batch": 1
+  },
+  {
+    "id": 100,
+    "migration": "2024_06_07_031027_create_tbl_insurance_payroll_table",
+    "batch": 1
+  },
+  {
+    "id": 101,
+    "migration": "2024_06_07_031027_create_tbl_insurance_process_table",
+    "batch": 1
+  },
+  {
+    "id": 102,
+    "migration": "2024_06_07_031027_create_tbl_insurance_rate_table",
+    "batch": 1
+  },
+  {
+    "id": 103,
+    "migration": "2024_06_07_031027_create_tbl_insurance_regime_table",
+    "batch": 1
+  },
+  {
+    "id": 104,
+    "migration": "2024_06_07_031027_create_tbl_insurance_timekeeping_table",
+    "batch": 1
+  },
+  {
+    "id": 105,
+    "migration": "2024_06_07_031027_create_tbl_interactive_table",
+    "batch": 1
+  },
+  {
+    "id": 106,
+    "migration": "2024_06_07_031027_create_tbl_inventory_status_table",
+    "batch": 1
+  },
+  {
+    "id": 107,
+    "migration": "2024_06_07_031027_create_tbl_invoice_content_table",
+    "batch": 1
+  },
+  {
+    "id": 108,
+    "migration": "2024_06_07_031027_create_tbl_invoice_control_table",
+    "batch": 1
+  },
+  {
+    "id": 109,
+    "migration": "2024_06_07_031027_create_tbl_invoice_discount_table",
+    "batch": 1
+  },
+  {
+    "id": 110,
+    "migration": "2024_06_07_031027_create_tbl_invoice_packing_product_table",
+    "batch": 1
+  },
+  {
+    "id": 111,
+    "migration": "2024_06_07_031027_create_tbl_invoice_packing_table",
+    "batch": 1
+  },
+  {
+    "id": 112,
+    "migration": "2024_06_07_031027_create_tbl_invoice_price_table",
+    "batch": 1
+  },
+  {
+    "id": 113,
+    "migration": "2024_06_07_031027_create_tbl_invoice_supplier_table",
+    "batch": 1
+  },
+  {
+    "id": 114,
+    "migration": "2024_06_07_031027_create_tbl_invoice_table",
+    "batch": 1
+  },
+  {
+    "id": 115,
+    "migration": "2024_06_07_031027_create_tbl_job_manager_table",
+    "batch": 1
+  },
+  {
+    "id": 116,
+    "migration": "2024_06_07_031027_create_tbl_job_sales_reason_table",
+    "batch": 1
+  },
+  {
+    "id": 117,
+    "migration": "2024_06_07_031027_create_tbl_job_sales_report_table",
+    "batch": 1
+  },
+  {
+    "id": 118,
+    "migration": "2024_06_07_031027_create_tbl_job_sales_table",
+    "batch": 1
+  },
+  {
+    "id": 119,
+    "migration": "2024_06_07_031027_create_tbl_job_sysdept_table",
+    "batch": 1
+  },
+  {
+    "id": 120,
+    "migration": "2024_06_07_031027_create_tbl_kpi_configs_table",
+    "batch": 1
+  },
+  {
+    "id": 121,
+    "migration": "2024_06_07_031027_create_tbl_kpi_details_table",
+    "batch": 1
+  },
+  {
+    "id": 122,
+    "migration": "2024_06_07_031027_create_tbl_kpi_scores_table",
+    "batch": 1
+  },
+  {
+    "id": 123,
+    "migration": "2024_06_07_031027_create_tbl_label_table",
+    "batch": 1
+  },
+  {
+    "id": 124,
+    "migration": "2024_06_07_031027_create_tbl_language_table",
+    "batch": 1
+  },
+  {
+    "id": 125,
+    "migration": "2024_06_07_031027_create_tbl_list_competitor_table",
+    "batch": 1
+  },
+  {
+    "id": 126,
+    "migration": "2024_06_07_031027_create_tbl_local_returned_product_table",
+    "batch": 1
+  },
+  {
+    "id": 127,
+    "migration": "2024_06_07_031027_create_tbl_local_returned_table",
+    "batch": 1
+  },
+  {
+    "id": 128,
+    "migration": "2024_06_07_031027_create_tbl_mail_delivery_table",
+    "batch": 1
+  },
+  {
+    "id": 129,
+    "migration": "2024_06_07_031027_create_tbl_manage_notifications_table",
+    "batch": 1
+  },
+  {
+    "id": 130,
+    "migration": "2024_06_07_031027_create_tbl_meeting_details_table",
+    "batch": 1
+  },
+  {
+    "id": 131,
+    "migration": "2024_06_07_031027_create_tbl_meeting_table",
+    "batch": 1
+  },
+  {
+    "id": 132,
+    "migration": "2024_06_07_031027_create_tbl_module_table",
+    "batch": 1
+  },
+  {
+    "id": 133,
+    "migration": "2024_06_07_031027_create_tbl_money_transaction_table",
+    "batch": 1
+  },
+  {
+    "id": 134,
+    "migration": "2024_06_07_031027_create_tbl_new_found_goods_messages_table",
+    "batch": 1
+  },
+  {
+    "id": 135,
+    "migration": "2024_06_07_031027_create_tbl_new_found_goods_table",
+    "batch": 1
+  },
+  {
+    "id": 136,
+    "migration": "2024_06_07_031027_create_tbl_order_location_table",
+    "batch": 1
+  },
+  {
+    "id": 137,
+    "migration": "2024_06_07_031027_create_tbl_other_organization_table",
+    "batch": 1
+  },
+  {
+    "id": 138,
+    "migration": "2024_06_07_031027_create_tbl_outsourcing_product_table",
+    "batch": 1
+  },
+  {
+    "id": 139,
+    "migration": "2024_06_07_031027_create_tbl_outsourcing_table",
+    "batch": 1
+  },
+  {
+    "id": 140,
+    "migration": "2024_06_07_031027_create_tbl_overtime_table",
+    "batch": 1
+  },
+  {
+    "id": 141,
+    "migration": "2024_06_07_031027_create_tbl_page_table",
+    "batch": 1
+  },
+  {
+    "id": 142,
+    "migration": "2024_06_07_031027_create_tbl_payment_cost_table",
+    "batch": 1
+  },
+  {
+    "id": 143,
+    "migration": "2024_06_07_031027_create_tbl_payment_customers_table",
+    "batch": 1
+  },
+  {
+    "id": 144,
+    "migration": "2024_06_07_031027_create_tbl_payment_slip_number_table",
+    "batch": 1
+  },
+  {
+    "id": 145,
+    "migration": "2024_06_07_031027_create_tbl_payment_table",
+    "batch": 1
+  },
+  {
+    "id": 146,
+    "migration": "2024_06_07_031027_create_tbl_performance_transport_score_table",
+    "batch": 1
+  },
+  {
+    "id": 147,
+    "migration": "2024_06_07_031027_create_tbl_po_product_table",
+    "batch": 1
+  },
+  {
+    "id": 148,
+    "migration": "2024_06_07_031027_create_tbl_po_table",
+    "batch": 1
+  },
+  {
+    "id": 149,
+    "migration": "2024_06_07_031027_create_tbl_positive_criteria_table",
+    "batch": 1
+  },
+  {
+    "id": 150,
+    "migration": "2024_06_07_031027_create_tbl_positive_table",
+    "batch": 1
+  },
+  {
+    "id": 151,
+    "migration": "2024_06_07_031027_create_tbl_processed_materials_table",
+    "batch": 1
+  },
+  {
+    "id": 152,
+    "migration": "2024_06_07_031027_create_tbl_product_dead_table",
+    "batch": 1
+  },
+  {
+    "id": 153,
+    "migration": "2024_06_07_031027_create_tbl_product_error_table",
+    "batch": 1
+  },
+  {
+    "id": 154,
+    "migration": "2024_06_07_031027_create_tbl_product_import_table",
+    "batch": 1
+  },
+  {
+    "id": 155,
+    "migration": "2024_06_07_031027_create_tbl_product_limited_table",
+    "batch": 1
+  },
+  {
+    "id": 156,
+    "migration": "2024_06_07_031027_create_tbl_product_order_delayed_table",
+    "batch": 1
+  },
+  {
+    "id": 157,
+    "migration": "2024_06_07_031027_create_tbl_product_order_failure_table",
+    "batch": 1
+  },
+  {
+    "id": 158,
+    "migration": "2024_06_07_031027_create_tbl_product_order_table",
+    "batch": 1
+  },
+  {
+    "id": 159,
+    "migration": "2024_06_07_031027_create_tbl_product_sub_table",
+    "batch": 1
+  },
+  {
+    "id": 160,
+    "migration": "2024_06_07_031027_create_tbl_product_table",
+    "batch": 1
+  },
+  {
+    "id": 161,
+    "migration": "2024_06_07_031027_create_tbl_product_unsafe_inventory_table",
+    "batch": 1
+  },
+  {
+    "id": 162,
+    "migration": "2024_06_07_031027_create_tbl_product_vat_import_table",
+    "batch": 1
+  },
+  {
+    "id": 163,
+    "migration": "2024_06_07_031027_create_tbl_product_vat_order_arise_table",
+    "batch": 1
+  },
+  {
+    "id": 164,
+    "migration": "2024_06_07_031027_create_tbl_product_vat_order_table",
+    "batch": 1
+  },
+  {
+    "id": 165,
+    "migration": "2024_06_07_031027_create_tbl_product_vat_table",
+    "batch": 1
+  },
+  {
+    "id": 166,
+    "migration": "2024_06_07_031027_create_tbl_product_warning_table",
+    "batch": 1
+  },
+  {
+    "id": 167,
+    "migration": "2024_06_07_031027_create_tbl_project_job_product_table",
+    "batch": 1
+  },
+  {
+    "id": 168,
+    "migration": "2024_06_07_031027_create_tbl_project_job_report_table",
+    "batch": 1
+  },
+  {
+    "id": 169,
+    "migration": "2024_06_07_031027_create_tbl_project_job_table",
+    "batch": 1
+  },
+  {
+    "id": 170,
+    "migration": "2024_06_07_031027_create_tbl_project_table",
+    "batch": 1
+  },
+  {
+    "id": 171,
+    "migration": "2024_06_07_031027_create_tbl_propose_error_product_table",
+    "batch": 1
+  },
+  {
+    "id": 172,
+    "migration": "2024_06_07_031027_create_tbl_purchase_fee_compensate_table",
+    "batch": 1
+  },
+  {
+    "id": 173,
+    "migration": "2024_06_07_031027_create_tbl_purchase_fee_norm_table",
+    "batch": 1
+  },
+  {
+    "id": 174,
+    "migration": "2024_06_07_031027_create_tbl_purchase_fee_table",
+    "batch": 1
+  },
+  {
+    "id": 175,
+    "migration": "2024_06_07_031027_create_tbl_purchase_kpi_order_table",
+    "batch": 1
+  },
+  {
+    "id": 176,
+    "migration": "2024_06_07_031027_create_tbl_quotation_order_product_table",
+    "batch": 1
+  },
+  {
+    "id": 177,
+    "migration": "2024_06_07_031027_create_tbl_quotation_order_table",
+    "batch": 1
+  },
+  {
+    "id": 178,
+    "migration": "2024_06_07_031027_create_tbl_quotation_product_table",
+    "batch": 1
+  },
+  {
+    "id": 179,
+    "migration": "2024_06_07_031027_create_tbl_quotation_table",
+    "batch": 1
+  },
+  {
+    "id": 180,
+    "migration": "2024_06_07_031027_create_tbl_recruitment_file_table",
+    "batch": 1
+  },
+  {
+    "id": 181,
+    "migration": "2024_06_07_031027_create_tbl_report_table",
+    "batch": 1
+  },
+  {
+    "id": 182,
+    "migration": "2024_06_07_031027_create_tbl_return_invoice_supplier_product_table",
+    "batch": 1
+  },
+  {
+    "id": 183,
+    "migration": "2024_06_07_031027_create_tbl_return_invoice_supplier_table",
+    "batch": 1
+  },
+  {
+    "id": 184,
+    "migration": "2024_06_07_031027_create_tbl_returned_product_table",
+    "batch": 1
+  },
+  {
+    "id": 185,
+    "migration": "2024_06_07_031027_create_tbl_returned_table",
+    "batch": 1
+  },
+  {
+    "id": 186,
+    "migration": "2024_06_07_031027_create_tbl_reward_table",
+    "batch": 1
+  },
+  {
+    "id": 187,
+    "migration": "2024_06_07_031027_create_tbl_risky_businesses_table",
+    "batch": 1
+  },
+  {
+    "id": 188,
+    "migration": "2024_06_07_031027_create_tbl_safe_transaction_table",
+    "batch": 1
+  },
+  {
+    "id": 189,
+    "migration": "2024_06_07_031027_create_tbl_salary_advance_table",
+    "batch": 1
+  },
+  {
+    "id": 190,
+    "migration": "2024_06_07_031027_create_tbl_salary_bonus_table",
+    "batch": 1
+  },
+  {
+    "id": 191,
+    "migration": "2024_06_07_031027_create_tbl_salary_table",
+    "batch": 1
+  },
+  {
+    "id": 192,
+    "migration": "2024_06_07_031027_create_tbl_sales_growth_table",
+    "batch": 1
+  },
+  {
+    "id": 193,
+    "migration": "2024_06_07_031027_create_tbl_sales_manager_table",
+    "batch": 1
+  },
+  {
+    "id": 194,
+    "migration": "2024_06_07_031027_create_tbl_sales_target_table",
+    "batch": 1
+  },
+  {
+    "id": 195,
+    "migration": "2024_06_07_031027_create_tbl_seller_table",
+    "batch": 1
+  },
+  {
+    "id": 196,
+    "migration": "2024_06_07_031027_create_tbl_send_documents_table",
+    "batch": 1
+  },
+  {
+    "id": 197,
+    "migration": "2024_06_07_031027_create_tbl_send_email_table",
+    "batch": 1
+  },
+  {
+    "id": 198,
+    "migration": "2024_06_07_031027_create_tbl_service_quality_comment_table",
+    "batch": 1
+  },
+  {
+    "id": 199,
+    "migration": "2024_06_07_031027_create_tbl_service_quality_table",
+    "batch": 1
+  },
+  {
+    "id": 200,
+    "migration": "2024_06_07_031027_create_tbl_sheet_supplier_orders_table",
+    "batch": 1
+  },
+  {
+    "id": 201,
+    "migration": "2024_06_07_031027_create_tbl_sheet_supplier_table",
+    "batch": 1
+  },
+  {
+    "id": 202,
+    "migration": "2024_06_07_031027_create_tbl_sheets_products_table",
+    "batch": 1
+  },
+  {
+    "id": 203,
+    "migration": "2024_06_07_031027_create_tbl_sheets_table",
+    "batch": 1
+  },
+  {
+    "id": 204,
+    "migration": "2024_06_07_031027_create_tbl_software_quality_assessment_detail_table",
+    "batch": 1
+  },
+  {
+    "id": 205,
+    "migration": "2024_06_07_031027_create_tbl_software_quality_assessment_table",
+    "batch": 1
+  },
+  {
+    "id": 206,
+    "migration": "2024_06_07_031027_create_tbl_software_quality_table",
+    "batch": 1
+  },
+  {
+    "id": 207,
+    "migration": "2024_06_07_031027_create_tbl_special_control_issue_stockout_table",
+    "batch": 1
+  },
+  {
+    "id": 208,
+    "migration": "2024_06_07_031027_create_tbl_special_control_issue_table",
+    "batch": 1
+  },
+  {
+    "id": 209,
+    "migration": "2024_06_07_031027_create_tbl_special_control_table",
+    "batch": 1
+  },
+  {
+    "id": 210,
+    "migration": "2024_06_07_031027_create_tbl_statistic_delivery_table",
+    "batch": 1
+  },
+  {
+    "id": 211,
+    "migration": "2024_06_07_031027_create_tbl_statistic_sysdept_table",
+    "batch": 1
+  },
+  {
+    "id": 212,
+    "migration": "2024_06_07_031027_create_tbl_statistic_table",
+    "batch": 1
+  },
+  {
+    "id": 213,
+    "migration": "2024_06_07_031027_create_tbl_stock_out_product_table",
+    "batch": 1
+  },
+  {
+    "id": 214,
+    "migration": "2024_06_07_031027_create_tbl_stock_out_table",
+    "batch": 1
+  },
+  {
+    "id": 215,
+    "migration": "2024_06_07_031027_create_tbl_stockout_local_product_table",
+    "batch": 1
+  },
+  {
+    "id": 216,
+    "migration": "2024_06_07_031027_create_tbl_stockout_local_table",
+    "batch": 1
+  },
+  {
+    "id": 217,
+    "migration": "2024_06_07_031027_create_tbl_store_location_table",
+    "batch": 1
+  },
+  {
+    "id": 218,
+    "migration": "2024_06_07_031027_create_tbl_supplier_debt_compare_table",
+    "batch": 1
+  },
+  {
+    "id": 219,
+    "migration": "2024_06_07_031027_create_tbl_supplier_po_product_table",
+    "batch": 1
+  },
+  {
+    "id": 220,
+    "migration": "2024_06_07_031027_create_tbl_supplier_po_table",
+    "batch": 1
+  },
+  {
+    "id": 221,
+    "migration": "2024_06_07_031027_create_tbl_supplier_product_table",
+    "batch": 1
+  },
+  {
+    "id": 222,
+    "migration": "2024_06_07_031027_create_tbl_supplier_returned_product_table",
+    "batch": 1
+  },
+  {
+    "id": 223,
+    "migration": "2024_06_07_031027_create_tbl_supplier_returned_table",
+    "batch": 1
+  },
+  {
+    "id": 224,
+    "migration": "2024_06_07_031027_create_tbl_supplier_table",
+    "batch": 1
+  },
+  {
+    "id": 225,
+    "migration": "2024_06_07_031027_create_tbl_supplier_vat_returned_product_table",
+    "batch": 1
+  },
+  {
+    "id": 226,
+    "migration": "2024_06_07_031027_create_tbl_supplier_vat_returned_table",
+    "batch": 1
+  },
+  {
+    "id": 227,
+    "migration": "2024_06_07_031027_create_tbl_support_customer_table",
+    "batch": 1
+  },
+  {
+    "id": 228,
+    "migration": "2024_06_07_031027_create_tbl_survey_question_choice_table",
+    "batch": 1
+  },
+  {
+    "id": 229,
+    "migration": "2024_06_07_031027_create_tbl_survey_question_table",
+    "batch": 1
+  },
+  {
+    "id": 230,
+    "migration": "2024_06_07_031027_create_tbl_survey_response_table",
+    "batch": 1
+  },
+  {
+    "id": 231,
+    "migration": "2024_06_07_031027_create_tbl_survey_table",
+    "batch": 1
+  },
+  {
+    "id": 232,
+    "migration": "2024_06_07_031027_create_tbl_tracking_product_table",
+    "batch": 1
+  },
+  {
+    "id": 233,
+    "migration": "2024_06_07_031027_create_tbl_tracking_table",
+    "batch": 1
+  },
+  {
+    "id": 234,
+    "migration": "2024_06_07_031027_create_tbl_training_answer_table",
+    "batch": 1
+  },
+  {
+    "id": 235,
+    "migration": "2024_06_07_031027_create_tbl_training_exam_review_table",
+    "batch": 1
+  },
+  {
+    "id": 236,
+    "migration": "2024_06_07_031027_create_tbl_training_exam_table",
+    "batch": 1
+  },
+  {
+    "id": 237,
+    "migration": "2024_06_07_031027_create_tbl_training_exam_trial_table",
+    "batch": 1
+  },
+  {
+    "id": 238,
+    "migration": "2024_06_07_031027_create_tbl_training_question_table",
+    "batch": 1
+  },
+  {
+    "id": 239,
+    "migration": "2024_06_07_031027_create_tbl_training_table",
+    "batch": 1
+  },
+  {
+    "id": 240,
+    "migration": "2024_06_07_031027_create_tbl_transport_fee_table",
+    "batch": 1
+  },
+  {
+    "id": 241,
+    "migration": "2024_06_07_031027_create_tbl_urgent_goods_messages_table",
+    "batch": 1
+  },
+  {
+    "id": 242,
+    "migration": "2024_06_07_031027_create_tbl_urgent_goods_table",
+    "batch": 1
+  },
+  {
+    "id": 243,
+    "migration": "2024_06_07_031027_create_tbl_user_table",
+    "batch": 1
+  },
+  {
+    "id": 244,
+    "migration": "2024_06_07_031027_create_tbl_vat_payment_table",
+    "batch": 1
+  },
+  {
+    "id": 245,
+    "migration": "2024_06_07_031027_create_tbl_vat_returned_product_table",
+    "batch": 1
+  },
+  {
+    "id": 246,
+    "migration": "2024_06_07_031027_create_tbl_vat_returned_table",
+    "batch": 1
+  },
+  {
+    "id": 247,
+    "migration": "2024_06_07_031027_create_tbl_week_interactive_table",
+    "batch": 1
+  },
+  {
+    "id": 248,
+    "migration": "2024_06_07_031027_create_tbl_worktime_table",
+    "batch": 1
+  },
+  {
+    "id": 249,
+    "migration": "2024_06_07_031029_create_PROC_INNOVATION_VIOLATION_proc",
+    "batch": 1
+  },
+  {
+    "id": 250,
+    "migration": "2024_06_07_031029_create_clearHistoryCycleCounting_proc",
+    "batch": 1
+  },
+  {
+    "id": 251,
+    "migration": "2024_06_07_031029_create_SPLIT_STRING",
+    "batch": 2
+  },
+  {
+    "id": 252,
+    "migration": "2024_07_01_031027_create_tbl_store_location_models",
+    "batch": 3
+  },
+  {
+    "id": 253,
+    "migration": "2024_07_11_031027_remove_users_and_fix_tbl_user_table",
+    "batch": 4
+  },
+  {
+    "id": 254,
+    "migration": "2024_07_11_085848_create_tbl_logs_table",
+    "batch": 4
+  },
+  {
+    "id": 255,
+    "migration": "2024_07_19_043853_create_tbl_special_control_responsible_user_table",
+    "batch": 5
+  },
+  {
+    "id": 256,
+    "migration": "2024_07_19_063908_create_tbl_special_control_processing_user_table",
+    "batch": 5
+  },
+  {
+    "id": 257,
+    "migration": "2024_07_23_094852_create_tbl_product_staffs_table",
+    "batch": 6
+  },
+  {
+    "id": 258,
+    "migration": "2024_07_23_100802_create_tbl_product_locations_table",
+    "batch": 6
+  },
+  {
+    "id": 259,
+    "migration": "2024_07_22_165527_create_chat_table",
+    "batch": 7
+  },
+  {
+    "id": 260,
+    "migration": "2024_07_22_165527_create_notification_table",
+    "batch": 7
+  },
+  {
+    "id": 261,
+    "migration": "2024_07_24_033654_create_tbl_product_store_location_table",
+    "batch": 8
+  },
+  {
+    "id": 262,
+    "migration": "2024_07_24_034410_create_tbl_product_error_store_location",
+    "batch": 8
+  },
+  {
+    "id": 263,
+    "migration": "2024_07_24_034900_create_tbl_cycle_counting_store_location_table",
+    "batch": 8
+  },
+  {
+    "id": 264,
+    "migration": "2024_07_24_093052_create_tbl_special_control_users_table",
+    "batch": 9
+  },
+  {
+    "id": 265,
+    "migration": "2024_07_30_065158_update_foreign_keys_in_tbl_certificate_detail_table",
+    "batch": 9
+  },
+  {
+    "id": 266,
+    "migration": "2024_07_30_070944_update_foreign_keys_in_tbl_certificate_product_table",
+    "batch": 9
+  },
+  {
+    "id": 267,
+    "migration": "2024_07_31_094939_create_tbl_product_production_norms_table",
+    "batch": 10
+  },
+  {
+    "id": 268,
+    "migration": "2024_08_05_165527_create_activity_log_table",
+    "batch": 10
+  },
+  {
+    "id": 269,
+    "migration": "2024_08_06_072814_update_column_exprity_date_tbl_certificate_detail_table",
+    "batch": 11
+  },
+  {
+    "id": 270,
+    "migration": "2024_08_05_040633_create_tbl_product_vat_products_table",
+    "batch": 12
+  },
+  {
+    "id": 271,
+    "migration": "2024_08_12_082155_create_tbl_supplier_staff_table",
+    "batch": 13
+  },
+  {
+    "id": 272,
+    "migration": "2024_08_15_112242_create_telescope_entries_table",
+    "batch": 14
+  },
+  {
+    "id": 273,
+    "migration": "2024_08_15_064020_create_telescope_entries_table",
+    "batch": 15
+  },
+  {
+    "id": 274,
+    "migration": "2024_08_23_095438_add_column_to_tbl_purchase_fee_norm_table",
+    "batch": 16
+  },
+  {
+    "id": 275,
+    "migration": "2024_08_30_140218_create_generate_code_suppliers_table",
+    "batch": 17
+  },
+  {
+    "id": 276,
+    "migration": "2024_08_30_155616_create_tbl_customer_vat_customers_table",
+    "batch": 17
+  },
+  {
+    "id": 277,
+    "migration": "2024_09_18_082934_insert_column_confirm_stocked_into_tbl_product_import_table",
+    "batch": 18
+  },
+  {
+    "id": 278,
+    "migration": "2024_09_23_145212_create_tbl_supplier_users_table",
+    "batch": 19
+  },
+  {
+    "id": 279,
+    "migration": "2024_09_23_154642_create_tbl_supplier_customer_vats_table",
+    "batch": 19
+  },
+  {
+    "id": 280,
+    "migration": "2024_09_25_165527_create_tbl_last_changed_data_table",
+    "batch": 20
+  },
+  {
+    "id": 281,
+    "migration": "2024_09_25_165527_create_tbl_product_data_summary_table",
+    "batch": 20
+  },
+  {
+    "id": 282,
+    "migration": "2024_09_30_165527_after_supplier_best_price_id_tbl_product_data_summary_table",
+    "batch": 21
+  }
+]

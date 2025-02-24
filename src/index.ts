@@ -10,7 +10,21 @@ const capturePage = async (browser, url) => {
   try {
     page.setDefaultNavigationTimeout(30000);
     await page.setViewportSize({ width: 1920, height: 1080 });
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    try {
+      await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    } catch (e) {
+      console.error('Go error', e);
+    }
+
+    page.on('domcontentloaded', () => {
+      console.log('domcontentloaded');
+    });
+    page.on('load', () => {
+      console.log('Page load');
+    });
+    page.on('networkidle', () => {
+      console.log('page networkidle!');
+    });
     const buffer = await page.screenshot();
     return buffer;
   } finally {

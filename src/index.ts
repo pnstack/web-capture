@@ -38,7 +38,7 @@ const port = process.env.PORT || 5510;
 
 // Launch browser once when the server starts
 (async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: process.env.headless !== 'false' });
   app.locals.browser = browser;
 
   // Health check endpoint

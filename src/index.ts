@@ -10,6 +10,29 @@ export type CaptureOptions = {
   fullPage?: boolean;
 };
 
+export type BrowserConfig = {
+  wsEndpoint?: string;
+  headless?: boolean;
+};
+
+// Function to get browser configuration from environment variables
+export const getBrowserConfig = (): BrowserConfig => {
+  return {
+    wsEndpoint: process.env.BROWSER_WS_ENDPOINT,
+    headless: process.env.HEADLESS !== 'false',
+  };
+};
+
+// Function to initialize browser (local or remote)
+export const initBrowser = async (config: BrowserConfig): Promise<Browser> => {
+  if (config.wsEndpoint) {
+    console.log(`Connecting to remote browser at: ${config.wsEndpoint}`);
+    return chromium.connectOverCDP(config.wsEndpoint);
+  }
+  console.log('Launching local browser');
+  return chromium.launch({ headless: config.headless });
+};
+
 // Function to capture a screenshot using a shared browser instance
 const capturePage = async (browser: Browser, url, options?: CaptureOptions) => {
   const context = await browser.newContext();
@@ -52,7 +75,8 @@ const port = process.env.PORT || 5510;
 
 // Launch browser once when the server starts
 (async () => {
-  const browser = await chromium.launch({ headless: process.env.HEADLESS !== 'false' });
+  const browserConfig = getBrowserConfig();
+  const browser = await initBrowser(browserConfig);
   app.locals.browser = browser;
 
   // Health check endpoint

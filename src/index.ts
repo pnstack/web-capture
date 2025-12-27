@@ -1,13 +1,19 @@
-import { Browser, chromium } from '@playwright/test';
+import { Browser } from '@playwright/test';
 import express, { NextFunction, Request, Response } from 'express';
 
 import 'dotenv/config';
+import { getBrowser } from './utils';
 
 export type CaptureOptions = {
   width?: number;
   height?: number;
   selector?: string;
   fullPage?: boolean;
+};
+
+export type BrowserConfig = {
+  wsEndpoint?: string;
+  headless?: boolean;
 };
 
 // Function to capture a screenshot using a shared browser instance
@@ -52,9 +58,6 @@ const port = process.env.PORT || 5510;
 
 // Launch browser once when the server starts
 (async () => {
-  const browser = await chromium.launch({ headless: process.env.HEADLESS !== 'false' });
-  app.locals.browser = browser;
-
   // Health check endpoint
   app.get('/health', (req, res) => {
     res.type('text').send('ok');
@@ -62,6 +65,10 @@ const port = process.env.PORT || 5510;
 
   // Main endpoint to capture and serve screenshots
   app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+    const browser = await getBrowser();
+
+    app.locals.browser = browser;
+
     try {
       const { url, format, width, height, selector, fullPage } = req.query as any;
 
@@ -108,6 +115,8 @@ const port = process.env.PORT || 5510;
       }
     } catch (error) {
       next(error);
+    } finally {
+      await browser.close();
     }
     return;
   });

@@ -87,6 +87,12 @@ export async function createBrowserStackBrowser() {
   return await chromium.connect(wsEndpoint);
 }
 
+export async function createBrowserWs() {
+  const wsEndpoint = process.env.BROWSER_WS_ENDPOINT;
+  console.log('use custom ws endpoint:', wsEndpoint);
+  return await chromium.connect(wsEndpoint!);
+}
+
 export async function getBrowser() {
   switch (process.env.BROWSER_PROVIDER) {
     case 'lambdatest':
@@ -95,6 +101,9 @@ export async function getBrowser() {
       return await createBrowserStackBrowser();
     default:
       console.log('launch local browser');
+      if (process.env.BROWSER_WS_ENDPOINT) {
+        return await createBrowserWs();
+      }
       return await chromium.launch({ headless: process.env.HEADLESS !== 'false' });
   }
 }
